@@ -1,0 +1,10 @@
+.aboutpage__pretitle {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.aboutpage__content {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}

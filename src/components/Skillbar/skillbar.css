@@ -1,0 +1,19 @@
+.skillbar{
+  margin: 20px 0;
+}
+
+.skillbar__bar{ /*style the bar*/
+	background-color: white;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px  var(--primary-color);
+}
+
+.skillbar__bar span{ /*style the span tag*/
+	height: 5px;
+	float: left;
+	background-color: var(--primary-color);
+}
